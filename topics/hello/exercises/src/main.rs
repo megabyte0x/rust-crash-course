@@ -4,6 +4,9 @@
 #![allow(unused)]
 
 // main() is the entry point of Rust program
+fn main() {
+    println!("Hello, world!");
+}
 
 // println! is a macro that prints text to the console.
 // Macros in Rust generate code at compile time and are
