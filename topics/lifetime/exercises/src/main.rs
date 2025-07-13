@@ -1,8 +1,8 @@
 #[derive(Debug)]
-struct Config<'a> {
-    url: &'a str,
+struct Config {
+    url: &str,
     port: u32,
-    db_url: &'a str,
+    db_url: &str,
 }
 
 // Lifetime 'a can be omitted. Rust can automatically figure out the lifetime
